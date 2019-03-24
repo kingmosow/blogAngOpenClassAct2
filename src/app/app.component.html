@@ -1,0 +1,19 @@
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav mr-auto">
+        <li routerLinkActive="active" class="nav-item"><a routerLink="posts" class="nav-link">Mes Posts</a></li>
+        <li routerLinkActive="active" class="nav-item"><a routerLink="new" class="nav-link">Nouveau post</a></li>
+      </ul>
+  </div>
+</nav>
+
+
+<div class="container">
+  <div class="row">
+
+    <div class="col-md-8">
+      <router-outlet></router-outlet>
+      <!--<app-post-list [posts] = "posts" ></app-post-list>-->
+    </div>
+  </div>
+</div>
